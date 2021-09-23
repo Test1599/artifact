@@ -7,7 +7,7 @@ env:
   
 jobs:
   main:
-    runs-on: ubuntu-latest
+    runs-on: self-hosted
     steps:
       - name: Chekout the code
         uses: actions/Checkout@v2
